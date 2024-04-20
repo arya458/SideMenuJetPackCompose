@@ -5,7 +5,44 @@
 
 Gradle
 
-    implementation 'com.github.arya458:SideMenuJetPackCompose:TAG'
+Add it in your root build.gradle at the end of repositories:
+
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.arya458:SideMenuJetPackCompose:v1.0.0'
+	}
+
+
+
+
+Kotlin Gradle
+
+Add it in your root build.gradle at the end of repositories:
+
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url = uri("https://jitpack.io") }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation("com.github.arya458:SideMenuJetPackCompose:v1.0.0")
+	}
+
+
 
 
 Or
