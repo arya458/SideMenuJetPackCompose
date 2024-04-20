@@ -2,6 +2,9 @@
 
 [![](https://jitpack.io/v/arya458/SideMenuJetPackCompose.svg)](https://jitpack.io/#arya458/SideMenuJetPackCompose)
 
+Demo
+
+![](https://raw.githubusercontent.com/arya458/SideMenuJetPackCompose/master/demo.webp)
 
 Gradle
 
@@ -81,9 +84,5 @@ How To Use
     {
     // Your Main Page Compose View
     }
-
-Demo
-
-![](https://raw.githubusercontent.com/arya458/SideMenuJetPackCompose/master/demo.webp)
 
 Aria Danesh
