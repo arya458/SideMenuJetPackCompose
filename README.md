@@ -74,15 +74,17 @@ Kotlin
 
 How To Use
 
-	val mySideMenuState = remember { mutableStateOf(MenuState.COLLAPSE)}
+    val mySideMenuState = remember { mutableStateOf(MenuState.COLLAPSE)}
+
     SideMenu(
-    { modifier ->  
-    // Your Menu Compose View 
-    },
-    sideMenuState = mySideMenuState.value,
-    onSideMenuStateChange = { mySideMenuState.value = it })
-    {
-    // Your Main Page Compose View
-    }
+            {
+                // Your Menu Compose View
+            },
+            sideMenuState = mySideMenuState.value,
+            layoutDirection = LayoutDirection.Rtl,
+            onSideMenuStateChange = { mySideMenuState.value = it }) {
+            // Your Main Page Compose View
+        }
+
 
 Aria Danesh

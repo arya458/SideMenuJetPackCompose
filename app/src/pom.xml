@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.aria.danesh</groupId>
   <artifactId>sidemenu</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <packaging>aar</packaging>
   <name>SideMenuJetPackCompose</name>
   <description>A Simple SideMenu Bar Lib For Android JetPack</description>
