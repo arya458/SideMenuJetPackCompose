@@ -60,14 +60,14 @@ publishing {
         register<MavenPublication>("ReleaseAar") {
             groupId = "com.aria.danesh"
             artifactId = "sidemenu"
-            version = "1.0.0"
+            version = "1.0.2"
             pom {
                 name = "SideMenuJetPackCompose"
                 description = "A Simple SideMenu Bar Lib For Android JetPack"
                 url = "https://github.com/arya458/SideMenuJetPackCompose"
                 groupId = "com.aria.danesh"
                 artifactId = "sidemenu"
-                version = "1.0.0"
+                version = "1.0.2"
 //                artifact("build/outputs/aar/app-release.aar")
                 developers {
                     developer {
